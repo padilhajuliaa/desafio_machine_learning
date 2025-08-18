@@ -1,0 +1,60 @@
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambiente virtual
+venv/
+ENV/
+.env
+.venv
+env/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Arquivos grandes
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# Arquivos temporários
+*.log
+*.swp
+*.tmp
+
+# Credenciais
+*.pem
+*.key
+credentials.json
