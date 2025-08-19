@@ -54,6 +54,9 @@ venv.bak/
 *.swp
 *.tmp
 
+# Scripts de shell
+*.sh
+
 # Credenciais
 *.pem
 *.key
