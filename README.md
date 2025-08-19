@@ -1,4 +1,4 @@
-# Sistema de Previsão de Duração de Viagens - Matrix Tracking 🚚
+# Sistema de Previsão de Duração de Viagens - Matrix Tracking 
 
 ## Sobre o Projeto
 
@@ -111,17 +111,13 @@ desafio_machine_learning/
 ├── data/               # Arquivos de dados
 │   ├── train.csv       # Dados de treinamento
 │   └── test.csv        # Dados de teste
-│
-├── models/             # Modelos treinados
-│
 ├── output/             # Resultados e predições
 │   └── submission.csv  # Arquivo de submissão
-│
-├── images/             # Visualizações geradas
-│
+|
 └── desafio.ipynb       # Notebook principal com análise e modelagem
 ```
 
 
 **Autor:** Julia Padilha Da Rosa
+
 **Última atualização:** Agosto 2025
