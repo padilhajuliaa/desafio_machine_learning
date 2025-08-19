@@ -12,10 +12,10 @@ REPOSITORY_NAME=desafio_machine_learning
 # Verifica se já existe um remote origin configurado
 if git remote | grep -q "^origin$"; then
     echo "Remote 'origin' já existe. Atualizando configuração..."
-    git remote set-url origin https://github.com/${GITHUB_USERNAME}/${REPOSITORY_NAME}.git
+    git remote set-url origin https://${GITHUB_USERNAME}@github.com/${GITHUB_USERNAME}/${REPOSITORY_NAME}.git
 else
     echo "Configurando novo remote 'origin'..."
-    git remote add origin https://github.com/${GITHUB_USERNAME}/${REPOSITORY_NAME}.git
+    git remote add origin https://${GITHUB_USERNAME}@github.com/${GITHUB_USERNAME}/${REPOSITORY_NAME}.git
 fi
 
 # Garantir que estamos na branch main
