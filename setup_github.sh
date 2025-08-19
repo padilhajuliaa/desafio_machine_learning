@@ -6,16 +6,16 @@
 # Substitua com seu nome de usuário e nome do repositório no GitHub
 # Se o repositório ainda não existir, ele será criado automaticamente
 
-GITHUB_USERNAME=seu_usuario_github
+GITHUB_USERNAME=padilhajuliaa
 REPOSITORY_NAME=desafio_machine_learning
 
 # Verifica se já existe um remote origin configurado
 if git remote | grep -q "^origin$"; then
     echo "Remote 'origin' já existe. Atualizando configuração..."
-    git remote set-url origin https://github.com/$GITHUB_USERNAME/$REPOSITORY_NAME.git
+    git remote set-url origin https://github.com/${GITHUB_USERNAME}/${REPOSITORY_NAME}.git
 else
     echo "Configurando novo remote 'origin'..."
-    git remote add origin https://github.com/$GITHUB_USERNAME/$REPOSITORY_NAME.git
+    git remote add origin https://github.com/${GITHUB_USERNAME}/${REPOSITORY_NAME}.git
 fi
 
 # Garantir que estamos na branch main
@@ -35,7 +35,7 @@ git push -u origin main --force
 echo "===================================================="
 echo "Seu código foi atualizado no GitHub!"
 echo "Apenas a versão mais recente está disponível agora."
-echo "Acesse: https://github.com/$GITHUB_USERNAME/$REPOSITORY_NAME"
+echo "Acesse: https://github.com/${GITHUB_USERNAME}/${REPOSITORY_NAME}"
 echo "===================================================="
 echo ""
 echo "Para configurar acesso privado:"
